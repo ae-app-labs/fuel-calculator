@@ -40,9 +40,10 @@
 </script>
 
 <div class="container">
+
     <!-- Row 1 -->
     <div class="columns is-centered is-mobile">
-        <div class="column is-one-third">
+        <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
                     <input class="input is-medium with-floating-label mt-2" name="fuelPrice" type="number" placeholder=" " bind:value={fuelPrice}>
@@ -50,7 +51,11 @@
                 </div>
             </div>
         </div>
-        <div class="column is-one-third">
+    </div>
+
+    <!-- Row 2 -->
+    <div class="columns is-centered">
+        <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
                     <input class="input is-medium with-floating-label mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{amount}" on:blur={calculateUnit}>
@@ -58,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
                     <input class="input is-medium with-floating-label mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{unit}" on:blur={calculateAmount}>
