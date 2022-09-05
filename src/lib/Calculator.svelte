@@ -46,7 +46,7 @@
         <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" name="fuelPrice" type="number" placeholder=" " bind:value={fuelPrice}>
+                    <input class="input is-medium with-floating-label is-link mt-2" name="fuelPrice" type="number" placeholder=" " bind:value={fuelPrice}>
                     <label class="label is-medium is-floating-label has-text-grey" for="referenceWidth">Fuel Price</label>
                 </div>
             </div>
@@ -58,7 +58,7 @@
         <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{amount}" on:blur={calculateUnit}>
+                    <input class="input is-medium with-floating-label is-link mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{amount}" on:blur={calculateUnit}>
                     <label class="label is-medium has-text-grey is-floating-label" for="referenceHeight">Amount</label>
                 </div>
             </div>
@@ -66,7 +66,7 @@
         <div class="column is-one-half">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{unit}" on:blur={calculateAmount}>
+                    <input class="input is-medium with-floating-label is-link mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{unit}" on:blur={calculateAmount}>
                     <label class="label is-medium has-text-grey is-floating-label" for="referenceHeight">Fuel Unit</label>
                 </div>
             </div>
