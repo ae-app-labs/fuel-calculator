@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build-copy": "vite build && rmdir -f docs\\assets && cp -a -r dist\\* docs",
     "preview": "vite preview"
   },
   "devDependencies": {
